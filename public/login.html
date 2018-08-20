@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fire Chat Login</title>
+		<link href="../style.css" rel="stylesheet">
+
+	    <!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+	</head>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="../login.js"></script>
+
+	<body>
+		<div>
+			<br>
+			<br>
+
+			<div class="container">
+				<div class="row">
+					<input class="col m12" type="text" id="Name" placeholder="Name">
+					<input class="col m12" type="text" id="Room" placeholder="Room">
+					<input class="btn col m12" type="submit" name="submit" onclick="chatroom()">
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

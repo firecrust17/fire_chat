@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fire Chat</title>
+		<link href="style.css" rel="stylesheet">
+
+	    <!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+	</head>
+
+	<script src="/socket.io.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="chat.js"></script>
+
+	<body>
+
+		<footer class="page-footer white">
+          <div class="">
+            <div class="row">
+              <div class="col m12">
+                <form action="">
+					<div class="col s2">
+						<a class="btn col deep-purple lighten-3 m12" id="uname">Milan</a>
+			        </div>
+					<div class="col s10">
+ 						<input id="msg" type="text" placeholder="Enter Text" class="validate">
+			          	
+			        </div>
+
+				</form>
+
+
+              </div>
+            </div>
+              
+          </div>
+        </footer>
+		
+		<hr>
+
+		<div id="msg_area" class="row">
+			<div class="col m12">
+				Messages: <span class="right deep-purple-text" id="typing"></span>
+				<ul class="collection" id="messages"></ul>
+			</div>
+		</div>
+
+
+	</body>
+</html>

@@ -1,6 +1,8 @@
 # fire_chat
 chat server using socket.io
 
+extract node_nodules.zip
+
 Go to directory and run 
 <b>node index.js</b>
 
